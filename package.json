@@ -1,7 +1,7 @@
 {
-  "name": "fs-files",
+  "name": "node-fs-files",
   "version": "1.0.0",
-  "description": "Node package is a file system script that returns an Array or Object of all the files in a set directory.",
+  "description": "Node FS Files is a file system script that returns an Array or Object of all the files in a set directory.",
   "main": "node-fs-files.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
