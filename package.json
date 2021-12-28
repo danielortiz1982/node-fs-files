@@ -1,0 +1,19 @@
+{
+  "name": "fs-files",
+  "version": "1.0.0",
+  "description": "Node package is a file system script that returns an Array or Object of all the files in a set directory.",
+  "main": "node-fs-files.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielortiz1982/node-fs-files.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielortiz1982/node-fs-files/issues"
+  },
+  "homepage": "https://github.com/danielortiz1982/node-fs-files#readme"
+}
