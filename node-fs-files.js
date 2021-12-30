@@ -7,9 +7,9 @@ const NodeFsFiles = (dirPath = './', fileType = '', fileOptions = []) => {
   // Loop through files array
   files.forEach((file) => {
     // File options is an array then push items in.
-    const arrPush = () => fileOptions.push(path.join(__dirname, dirPath, "/", file))
+    const arrPush = () => fileOptions.push(path.join(dirPath, "/", file))
     // File options is an object assign key and set value.
-    const objAssign = () => fileOptions[path.join(file.split('.')[0])] = path.join(__dirname, dirPath, "/", file)
+    const objAssign = () => fileOptions[path.join(file.split('.')[0])] = path.join(dirPath, "/", file)
     // Check if `${dirPath}/${file}` is a folder or a file
     if (fs.statSync(`${dirPath}/${file}`).isDirectory()) {
       fileOptions = NodeFsFiles(`${dirPath}/${file}`, fileType, fileOptions)
